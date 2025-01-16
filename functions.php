@@ -10,7 +10,7 @@ if(!defined('VANIZ_DIR_PATH')){
 }
 
 if(!defined('VANIZ_DIR_URI')){
-  define('VANIZ_DIR_URI',untrailingslashit(get_template_directory()));
+  define('VANIZ_DIR_URI',untrailingslashit(get_template_directory_uri()));
 }
 
 require_once VANIZ_DIR_PATH . '/inc/helpers/autoloader.php';
