@@ -14,6 +14,7 @@ if(!defined('VANIZ_DIR_URI')){
 }
 
 require_once VANIZ_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once VANIZ_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function vaniz_get_theme_instance(){
   \VANIZ_THEME\Inc\VANIZ_THEME::get_instance();
